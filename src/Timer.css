@@ -10,37 +10,198 @@
 }
 
 .time {
-  font-size: 3rem;
-  padding: 2rem;
+  font-size: 10rem;
+  padding: 3rem;
 }
 
-.button {
-  padding: .6rem 1.5rem;
-  margin: .4rem;
-  border-radius: 3px;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: .8rem;
-  border-style: groove;
+.button{
+	position: relative;
+	display: block;
+	padding: 25px 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 65px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	color:rgba(255,255,255,1);
+	cursor: pointer;
+	letter-spacing: 2px;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background:#10B87B;
+}
+ 
+.button:after,
+.button:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+}
+ 
+.button:before{
+	left: -48%;
+}
+ 
+.button:hover{
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background:#12C987
+}
+ 
+.button:hover:after,
+.button:hover:before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+ 
+.button:hover:after{
+	right: 130%;
+}
+ 
+.button:hover:before{
+	left: 130%;
 }
 
 .button:focus {
   outline-width: 0;
+  padding: 25px 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 65px;
+	margin-bottom: 60px;
+	overflow: hidden;
+  padding: 25px 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 65px;
+	margin-bottom: 60px;
 }
 
 .button-primary:hover {
   background-color: #2641d4;
   border: 1px solid #1b1f2b;
+  padding: 25px 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 65px;
+	margin-bottom: 60px;
+	overflow: hidden;
+  padding: 25px 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 65px;
+	margin-bottom: 60px;
 }
+.button-primary{
+  background-color: #7f91f59d;
+  border: 1px solid #152684;
+  color: white;
+  padding: 10px 5px;
+	border-radius: 45px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 300px;
+	height: 60px;
+	margin-bottom: 60px;
+	overflow: hidden;
+  padding: 25px 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 65px;
+	margin-bottom: 60px;
+}
+
 
 .button-primary-active {
   background-color: #3151ff;
   border: 1px solid #152684;
   color: white;
+  padding: 25px 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 65px;
+	margin-bottom: 60px;
+	overflow: hidden;
+  padding: 25px 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 65px;
+	margin-bottom: 60px;
 }
 
 .button-primary-inactive {
   background-color: #0f218a;
   border: 1px solid #152684;
   color: white;
+  padding: 25px 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 65px;
+	margin-bottom: 60px;
+	overflow: hidden;
+  padding: 25px 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 65px;
+	margin-bottom: 60px;
+}
+
+.button-secondary{
+ 
+	
+	padding: 10px 5px;
+	border-radius: 16px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 200px;
+	height: 60px;
+	margin-bottom: 50px;
+	overflow: hidden;
+	color:rgba(255,255,255,1);
+	cursor: pointer;
+	letter-spacing: 2px;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background:#73c7a849;
+}
+
+.time{
+
+  color:#10B87B;
+  background-color: #2d3fa550;
+  border-radius: 500px;
+}
+
+.Countdown{
+  background-color: #1b1f2b;
 }

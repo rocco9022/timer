@@ -118,7 +118,7 @@ const Timer = () => {
       <button className="button" onClick={cambioTipo}>
         {tipo}
       </button>
-      {tipo === 'Countdown' && <input id="input" type="number" ref={myRef} placeholder="Ingresa Segundos" autoComplete="off"/>}
+      {tipo === 'Countdown' && <input id="input" type="number" ref={myRef} placeholder="Enter Seconds" autoComplete="off"/>}
     </div>
   );
 };
