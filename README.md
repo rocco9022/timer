@@ -5,7 +5,7 @@ You will be able to count down, stop and continue in the timer.
 
 If you are a Back To The future fan, maybe you will find a gift to remember and be happy.
 
-# Instalaction:
+# Instalation:
 📝 Do a npm install to view the application.
 
 # Technologies used:
